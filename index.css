@@ -1,0 +1,124 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f0f4f85d;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #007bff55;
+    padding: 15px 0;
+    color: #020c04;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin-left: 20px;
+}
+
+.navbar-menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.navbar-menu a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+    max-width: 800px;
+    margin: 20px auto;
+    position: relative;
+    z-index: 1;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.input-section input {
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 70%;
+}
+
+#generate-meal {
+    padding: 15px 30px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#generate-meal:hover {
+    background-color: #218838;
+}
+
+.meal-result {
+    margin-top: 20px;
+}
+
+.meal {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meal img {
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.meal h2 {
+    margin-top: 0;
+}
+
+.footer {
+    background-color: #343a40;
+    color: black;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    margin-top: 100px;
+}
+
+.highlight {
+    background-color: yellow;
+}
